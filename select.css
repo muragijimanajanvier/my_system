@@ -1,0 +1,65 @@
+/* Imiterere ya body */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+/* Imiterere ya table */
+table.data-table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Imiterere ya caption */
+table.data-table caption {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #00796b;
+    text-align: left;
+}
+
+/* Imiterere ya thead */
+table.data-table thead {
+    background-color: #00796b;
+    color: white;
+    text-align: left;
+}
+
+table.data-table th {
+    padding: 12px 15px;
+    text-transform: uppercase;
+}
+
+/* Imiterere ya tbody */
+table.data-table tbody tr {
+    background-color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+table.data-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+table.data-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* Imiterere ya row ya nyuma */
+table.data-table tr:last-child td {
+    border-bottom: none;
+}
+
+/* Gushyira padding muri table */
+table.data-table td, table.data-table th {
+    font-size: 1em;
+    color: #333;
+}

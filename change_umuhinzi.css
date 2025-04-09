@@ -1,0 +1,79 @@
+/* Gushyiraho imyandikire na background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Igikarito cy'ifishi */
+form {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 380px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Imyandikire y'umutwe */
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Ibirango (labels) */
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: left;
+    display: block;
+}
+
+/* Ahantu ho kwinjiza ibisabwa */
+input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    transition: 0.3s;
+    margin-top: 5px;
+}
+
+/* Iyo umuntu akandagiye mu kibuga */
+input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Buto yo kohereza */
+button {
+    background: #28a745;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+/* Buto iyo umuntu ayikandagiyeho */
+button:hover {
+    background: #218838;
+}
+
+/* Ubutumwa bwa error */
+.alert {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+}
